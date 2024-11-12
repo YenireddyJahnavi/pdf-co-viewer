@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Co-Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Load Socket.io -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Load PDF.js from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+</head>
+<body>
+    <canvas id="pdf-render"></canvas>
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    
+    <script src="client.js"></script>
+</body>
+</html>
